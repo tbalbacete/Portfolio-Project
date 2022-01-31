@@ -1,0 +1,28 @@
+body {
+    font-size: 80%;
+    background: #222;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 0;
+}
+nav {
+    float: right;
+    position: sticky;
+}
+header {
+    margin: 0;
+    padding: 0;
+    height: 50vw;
+    background: url(./assets/headerBackground.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+div.clear {
+    clear: both;
+}
