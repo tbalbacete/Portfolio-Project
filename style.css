@@ -84,3 +84,43 @@ div.clear {
     color: whitesmoke;
 }
 
+form {
+    font-size: 120%;
+    background-color: rgb(54, 54, 54);
+    margin: 5.0rem 0 0 0;
+    padding: 1.0rem 35.0rem 3.0rem 35.0rem;
+    color: whitesmoke;
+}
+
+footer {
+    background-color: #222;
+    height: 30px;
+    font-size: 1.3em;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+
+}
+footer a, footer a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+footer a:hover {
+    color: cornsilk;
+}

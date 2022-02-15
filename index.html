@@ -21,7 +21,7 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#main">About Me</a>
-                  <a class="nav-link" href="#fs-frm">Contact</a>
+                  <a class="nav-link" href="#contactHead">Contact</a>
                   <a class="nav-link" href="#projectshead">Projects</a>
                   <a class="nav-link" href="https://github.com/tbalbacete">GitHub</a>
                 </div>
@@ -97,7 +97,7 @@
     </div>
     <br/>
     <!-- Contact Section -->
-      <h2 id = "contactHead">Contact Me</h2>
+      <!-- <h2 id = "contactHead">Contact Me</h2>
         <div class="container-fluid">
             <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mgedaadp" method="post">
                 <fieldset id="fs-frm-inputs">
@@ -111,7 +111,24 @@
                 </fieldset>
                 <input type="submit" value="Submit">
               </form>
-        </div>
+        </div> -->
+        <div class="contentWrapper">
+          <h2 id="contactHead">Contact Me</h2>
+          <form action="https://formspree.io/f/mgedaadp" method="post">
+              <br /><br />
+              <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" name="_replyto" placeholder="yourname@website.com" class="form-control" id="exampleInputEmail1"
+                      aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Your email address will never be shared.</div>
+              </div>
+              <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                  <textarea name = "message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+          </form>
+      </div>
 
     <!-- Footer -->
     <div class="clear"></div>
